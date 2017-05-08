@@ -1,0 +1,11 @@
+define host{
+        use default-host-template
+        host_name TEMP_NAME
+        alias TEMP_NAME
+        address TEMP_IP
+        hostgroups TEMP_HOSTGROUPS
+        icon_image TEMP_IMG
+        statusmap_image TEMP_IMG
+        parents TEMP_PARENTS
+        }
+
